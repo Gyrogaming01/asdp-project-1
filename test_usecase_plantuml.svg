@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="262px" preserveAspectRatio="none" style="width:588px;height:262px;" version="1.1" viewBox="0 0 588 262" width="588px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="f10zjdlafb2pa0" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0" />
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" />
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" />
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal" />
+        </filter>
+    </defs>
+    <g>
+        <!--cluster System-->
+        <rect fill="#FFFFFF" filter="url(#f10zjdlafb2pa0)" height="221" style="stroke: #000000; stroke-width: 1.5;" width="345" x="83" y="24" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="50" x="230.5" y="40.5332">System</text>
+        <ellipse cx="359.4975" cy="209.9517" fill="#FEFECE" filter="url(#f10zjdlafb2pa0)" rx="52.4975" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="324.4975" y="215.2564">Use case 1</text>
+        <ellipse cx="359.4975" cy="76.9517" fill="#FEFECE" filter="url(#f10zjdlafb2pa0)" rx="52.4975" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="324.4975" y="82.2564">Use case 2</text>
+        <ellipse cx="359.4975" cy="142.9517" fill="#FEFECE" filter="url(#f10zjdlafb2pa0)" rx="52.4975" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="324.4975" y="148.2564">Use case 3</text>
+        <ellipse cx="151.4975" cy="87.9517" fill="#FEFECE" filter="url(#f10zjdlafb2pa0)" rx="52.4975" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="116.4975" y="93.2564">Use case 4</text>
+        <ellipse cx="151.4975" cy="163.9517" fill="#FEFECE" filter="url(#f10zjdlafb2pa0)" rx="52.4975" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="116.4975" y="169.2564">Use case 5</text>
+        <!--entity User-->
+        <ellipse cx="21" cy="131.5" fill="#FEFECE" filter="url(#f10zjdlafb2pa0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;" />
+        <path d="M21,139.5 L21,166.5 M8,147.5 L34,147.5 M21,166.5 L8,181.5 M21,166.5 L34,181.5 " fill="none" filter="url(#f10zjdlafb2pa0)" style="stroke: #A80036; stroke-width: 2.0;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="6.5" y="203.0332">User</text>
+        <!--entity Admin-->
+        <ellipse cx="556.5" cy="177.5" fill="#FEFECE" filter="url(#f10zjdlafb2pa0)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;" />
+        <path d="M556.5,185.5 L556.5,212.5 M543.5,193.5 L569.5,193.5 M556.5,212.5 L543.5,227.5 M556.5,212.5 L569.5,227.5 " fill="none" filter="url(#f10zjdlafb2pa0)" style="stroke: #A80036; stroke-width: 2.0;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="537" y="249.0332">Admin</text>
+        <!--link UC4 to UC2-->
+        <path d="M203.421,85.281 C233.381,83.681 271.318,81.655 302.17,80.008 " fill="none" id="UC4-UC2" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#A80036" points="307.45,79.726,298.2491,76.2126,302.4571,79.9931,298.6766,84.2011,307.45,79.726" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="41" x="235" y="78.4951">include</text>
+        <!--link UC5 to UC3-->
+        <path d="M201.319,159.023 C232.377,155.857 272.622,151.755 304.614,148.493 " fill="none" id="UC5-UC3" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#A80036" points="309.675,147.977,300.3156,144.9107,304.7008,148.4843,301.1273,152.8695,309.675,147.977" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="39" x="236" y="147.4951">extend</text>
+        <!--link UC5 to UC1-->
+        <path d="M199.329,174.457 C234.833,182.3851 283.165,193.1776 317.227,200.7837 " fill="none" id="UC5-UC1" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#A80036" points="194.187,173.3088,202.1002,179.1723,199.0671,174.3974,203.842,171.3643,194.187,173.3088" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="41" x="235" y="178.4951">include</text>
+        <!--link User to UC1-->
+        <path d="M36.2964,175.7404 C46.4307,183.3176 60.716,192.5601 75,197 C152.071,220.9559 246.585,219.5772 304.664,215.4772 " fill="none" id="User-UC1" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="309.822,215.0991,300.5545,211.7655,304.8353,215.4634,301.1374,219.7442,309.822,215.0991" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link User to UC4-->
+        <path d="M36.3033,154.883 C46.9165,148.17 61.7772,138.878 75,131 C90.1356,121.983 107.176,112.243 121.232,104.317 " fill="none" id="User-UC4" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="125.878,101.702,116.0731,102.6314,121.521,104.1548,119.9976,109.6027,125.878,101.702" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link User to UC5-->
+        <path d="M36.2427,164 C50.2776,164 72.6438,164 93.8818,164 " fill="none" id="User-UC5" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="98.963,164,89.963,160,93.963,164,89.963,168,98.963,164" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link UC1 to Admin-->
+        <path d="M417.613,210 C457.999,210 509.615,210 536.805,210 " fill="none" id="UC1-Admin" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="412.244,210,421.244,214,417.244,210,421.244,206,412.244,210" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--
+@startuml
+left to right direction
+:User: as User
+:Admin: as Admin
+rectangle System {
+  (Use case 1) as (UC1)
+  (Use case 2) as (UC2)
+  (Use case 3) as (UC3)
+  (Use case 4) as (UC4)
+  (UC4) ..> (UC2) : include
+  (Use case 5) as (UC5)
+  (UC5) ..> (UC3) : extend
+  (UC1) .up.> (UC5) : include
+  User - -> (UC1)
+  User - -> (UC4)
+  User - -> (UC5)
+  (UC1) <- - - Admin
+}
+@enduml
+
+PlantUML version 1.2019.01(Sat Feb 09 15:32:04 GMT 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Java Version: 1.8.0_191-b12
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: en
+Country: GB
+-->
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+@startuml
+left to right direction
+:User: as User
+:Admin: as Admin
+rectangle System {
+  (Use case 1) as (UC1)
+  (Use case 2) as (UC2)
+  (Use case 3) as (UC3)
+  (Use case 4) as (UC4)
+  (UC4) ..> (UC2) : include
+  (Use case 5) as (UC5)
+  (UC5) ..> (UC3) : extend
+  (UC1) .up.> (UC5) : include
+  User --> (UC1)
+  User --> (UC4)
+  User --> (UC5)
+  (UC1) <--- Admin
+}
+@enduml

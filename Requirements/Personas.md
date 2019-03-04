@@ -6,6 +6,22 @@
 - Sets classes for the week
 - May need to change/remove a slot (illness etc.)
 
+Name: James
+
+Job Title: Mentor in ITLC
+
+Age: 20
+
+Education: Leaving Cert, College
+
+Technology Exposure: Tech savy, social media regular, knows programming
+
+Hobbies:
+
+Goals: Help other students, Run classes
+
+Scenarios: Find this week’s timetable, check class status, book class, contact mentor, organise classes, 
+
 
 ### First year student
 - Nervous

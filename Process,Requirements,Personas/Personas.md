@@ -49,6 +49,6 @@ Technology Exposure: Curious about Programming/tech, uses social media,
 
 Hobbies: photography, gym
 
-Goals: Master his it skills/ Pass all exams
+Goals: Master his IT skills/ Pass all exams
 
 Scenarios: check class availability, book classes, contact mentors 

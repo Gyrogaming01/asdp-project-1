@@ -32,3 +32,23 @@ Scenarios: Find this week’s timetable, check class status, book class, contact
 - Working on final project
 - Needs help with more specific problems
 - Wants to book a more personal slot
+
+
+### 1st Year Student
+- Chooses classes of interest 
+- May want to book a class to study
+- May want to contact a Mentor
+
+Name: Oisín
+
+Course: Title: Computing
+
+Education: Leaving Cert
+
+Technology Exposure: Curious about Programming/tech, uses social media, 
+
+Hobbies: photography, gym
+
+Goals: Master his it skills/ Pass all exams
+
+Scenarios: check class availability, book classes, contact mentors 

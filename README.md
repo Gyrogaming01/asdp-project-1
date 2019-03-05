@@ -4,4 +4,4 @@
 ### Authors
 - Luke Halpenny
 - Joshua Atunuvbare
-- Rodions Barannikovs
+- Rodions Baranikovs

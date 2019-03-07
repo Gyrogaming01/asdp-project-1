@@ -10,13 +10,20 @@ rectangle "ITLC Timetable System" {
   (Change lesson) as (UC4)
   (Search lessons) as (UC5)
   (Book class) as (UC6)
-  (Check against DkIT timetable system) as (UC7)
-  (Check currently booked classes) as (UC8)
+  (Check against DkIT timetable system) as (UC8)
+  (Check currently booked classes) as (UC7)
+  (Contact Mentor) as (UC9)
+  (Monitor class attendance) as (UC10)
+  (Track student progress) as (UC11)
+  (Provide Online Resources) as (UC12)
+  (Access online resources) as (UC13)
 
   User -- (UC1)
   User -- (UC5)
   User -- (UC6)
-  User -- (UC8)
+  User -- (UC7)
+  User -- (UC9)
+  User -- (UC13)
   (UC1) -- Mentor
   (UC2) -- Mentor
   (UC3) -- Mentor
@@ -24,6 +31,9 @@ rectangle "ITLC Timetable System" {
   (UC5) -- Mentor
   (UC7) -- Mentor
   (UC8) -- Mentor
+  (UC10) -- Mentor
+  (UC11) -- Mentor
+  (UC12) -- Mentor
 
   (UC4) ..> (UC2) : include
   (UC3) ..> (UC2) : include

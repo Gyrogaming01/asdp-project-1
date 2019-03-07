@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="563px" preserveAspectRatio="none" style="width:680px;height:563px;" version="1.1" viewBox="0 0 680 563" width="680px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fw4ipeuozi7ju" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0" />
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" />
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" />
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal" />
+        </filter>
+    </defs>
+    <g>
+        <!--cluster ITLC Timetable System-->
+        <rect fill="#FFFFFF" filter="url(#fw4ipeuozi7ju)" height="528" style="stroke: #000000; stroke-width: 1.5;" width="494" x="83" y="24" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="156" x="252" y="40.5332">ITLC Timetable System</text>
+        <ellipse cx="225.7635" cy="209.9527" fill="#FEFECE" filter="url(#fw4ipeuozi7ju)" rx="67.7635" ry="15.9527" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="178.2635" y="215.2574">Show timetable</text>
+        <ellipse cx="508.4975" cy="94.9517" fill="#FEFECE" filter="url(#fw4ipeuozi7ju)" rx="52.4975" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="473.4975" y="100.2564">Add lesson</text>
+        <ellipse cx="226.0005" cy="76.1001" fill="#FEFECE" filter="url(#fw4ipeuozi7ju)" rx="68.5005" ry="16.1001" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="177.5005" y="81.4048">Remove lesson</text>
+        <ellipse cx="225.7635" cy="142.9527" fill="#FEFECE" filter="url(#fw4ipeuozi7ju)" rx="67.7635" ry="15.9527" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="178.2635" y="148.2574">Change lesson</text>
+        <ellipse cx="226.0005" cy="277.1001" fill="#FEFECE" filter="url(#fw4ipeuozi7ju)" rx="68.5005" ry="16.1001" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="177.5005" y="282.4048">Search lessons</text>
+        <ellipse cx="226.0833" cy="343.9517" fill="#FEFECE" filter="url(#fw4ipeuozi7ju)" rx="51.0833" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="192.0833" y="349.2564">Book class</text>
+        <ellipse cx="226.0728" cy="422.8146" fill="#FEFECE" filter="url(#fw4ipeuozi7ju)" rx="127.0728" ry="27.8146" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="232" x="110.0728" y="428.1193">Check against DkIT timetable system</text>
+        <ellipse cx="226.2192" cy="510.9438" fill="#FEFECE" filter="url(#fw4ipeuozi7ju)" rx="112.7192" ry="24.9438" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="201" x="125.7192" y="516.2485">Check currently booked classes</text>
+        <!--entity User-->
+        <ellipse cx="21" cy="278.5" fill="#FEFECE" filter="url(#fw4ipeuozi7ju)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;" />
+        <path d="M21,286.5 L21,313.5 M8,294.5 L34,294.5 M21,313.5 L8,328.5 M21,313.5 L34,328.5 " fill="none" filter="url(#fw4ipeuozi7ju)" style="stroke: #A80036; stroke-width: 2.0;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="6.5" y="350.0332">User</text>
+        <!--entity Mentor-->
+        <ellipse cx="646" cy="273.5" fill="#FEFECE" filter="url(#fw4ipeuozi7ju)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;" />
+        <path d="M646,281.5 L646,308.5 M633,289.5 L659,289.5 M646,308.5 L633,323.5 M646,308.5 L659,323.5 " fill="none" filter="url(#fw4ipeuozi7ju)" style="stroke: #A80036; stroke-width: 2.0;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="44" x="624" y="345.0332">Mentor</text>
+        <!--link User to UC1-->
+        <path d="M21,268.46 C21,240.857 21,210 21,210 C21,210 98.1033,210 157.738,210 " fill="none" id="User-UC1" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link User to UC5-->
+        <path d="M36.0741,280.75 C61.7795,280.75 115.563,280.75 159.356,280.75 " fill="none" id="User-UC5" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link User to UC6-->
+        <path d="M36.0741,341 C65.1082,341 129.964,341 175.784,341 " fill="none" id="User-UC6" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link User to UC8-->
+        <path d="M21,353.905 C21,412.672 21,511 21,511 C21,511 65.6694,511 113.305,511 " fill="none" id="User-UC8" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link UC1 to Mentor-->
+        <path d="M294.123,210 C409.986,210 633,210 633,210 C633,210 633,237.695 633,263.334 " fill="none" id="UC1-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link UC2 to Mentor-->
+        <path d="M561.157,95 C601.75,95 651,95 651,95 C651,95 651,201.646 651,263.301 " fill="none" id="UC2-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link UC3 to Mentor-->
+        <path d="M289.107,69.75 C409.476,69.75 660,69.75 660,69.75 C660,69.75 660,195.473 660,263.49 " fill="none" id="UC3-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link UC4 to Mentor-->
+        <path d="M290.544,148.333 C407.39,148.333 642,148.333 642,148.333 C642,148.333 642,216.639 642,263.333 " fill="none" id="UC4-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link UC5 to Mentor-->
+        <path d="M294.415,278.25 C391.112,278.25 562.778,278.25 623.752,278.25 " fill="none" id="UC5-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link UC7 to Mentor-->
+        <path d="M324,405.08 C324,380.276 324,338.5 324,338.5 C324,338.5 551.119,338.5 623.868,338.5 " fill="none" id="UC7-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link UC8 to Mentor-->
+        <path d="M338.552,511 C462.961,511 646,511 646,511 C646,511 646,409.087 646,348.975 " fill="none" id="UC8-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link UC4 to UC2-->
+        <path d="M290.217,137.667 C373.714,137.667 509,137.667 509,137.667 C509,137.667 509,115.887 509,115.887 " fill="none" id="UC4-UC2" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#A80036" points="509,110.887,505,119.887,509,115.887,513,119.887,509,110.887" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="41" x="384" y="132.4951">include</text>
+        <!--link UC3 to UC2-->
+        <path d="M280.469,85.75 C280.469,85.75 461.169,85.75 461.169,85.75 " fill="none" id="UC3-UC2" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#A80036" points="466.169,85.75,457.169,81.75,461.169,85.75,457.169,89.75,466.169,85.75" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="41" x="384" y="74.4951">include</text>
+        <!--
+@startuml
+left to right direction
+skinparam linetype ortho
+:User: as User
+:Mentor: as Mentor
+rectangle "ITLC Timetable System" {
+  (Show timetable) as (UC1)
+  (Add lesson) as (UC2)
+  (Remove lesson) as (UC3)
+  (Change lesson) as (UC4)
+  (Search lessons) as (UC5)
+  (Book class) as (UC6)
+  (Check against DkIT timetable system) as (UC7)
+  (Check currently booked classes) as (UC8)
+
+  User - - (UC1)
+  User - - (UC5)
+  User - - (UC6)
+  User - - (UC8)
+  (UC1) - - Mentor
+  (UC2) - - Mentor
+  (UC3) - - Mentor
+  (UC4) - - Mentor
+  (UC5) - - Mentor
+  (UC7) - - Mentor
+  (UC8) - - Mentor
+
+  (UC4) ..> (UC2) : include
+  (UC3) ..> (UC2) : include
+}
+@enduml
+
+PlantUML version 1.2019.01(Sat Feb 09 15:32:04 GMT 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) Client VM
+Java Version: 1.8.0_191-b12
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: en
+Country: GB
+-->
+    </g>
+</svg>

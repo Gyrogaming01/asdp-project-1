@@ -7,8 +7,8 @@ Preconditions:
 - Signed in as mentor
 
 Normal Sequence of Steps:
-1. Get lesson info
-2. Add to schedule
+1. Get lesson info (topic, time, mentor(s), room, recommended level(1st year, 4th year, etc.))
+2. Add lesson to schedule
 
 Postconditions:
 - Updated timetable
@@ -33,7 +33,7 @@ Preconditions:
 
 Normal Sequence of Steps:
 1. Select lesson to change
-2. Get new information
+2. Get new information (new time, changed room, etc.)
 3. Update schedule
 4. Inform involved users (mentor, students who booked)
 
@@ -58,6 +58,7 @@ Normal Sequence of Steps:
 1. Get search terms (lesson type, time, etc.)
 2. Search schedule for matching classes
 3. Display matching classes
+4. Student may show interest in attending, add to list
 
 Postconditions:
 
@@ -66,7 +67,8 @@ Preconditions:
 
 Normal Sequence of Steps:
 1. Get information (topic, preferred time, etc.)
-2. Add to request list
+2. If class already exists, add to list of students attending
+3. Otherwise, add to request list
 3. Mentor contacts student if additional info needed (e.g. different time)
 4. Class added to schedule
 
@@ -78,11 +80,12 @@ Postconditions:
 Preconditions:
 
 Normal Sequence of Steps:
-1. Select DkIT classes to search
+1. Select DkIT classes/rooms to search
 2. Display common free slots
-3. Display links to individual class timetables
+3. Display links to individual class/room timetables
 
 Postconditions:
+
 
 ### Contact Mentor
 Preconditions:

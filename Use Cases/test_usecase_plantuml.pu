@@ -1,6 +1,5 @@
 @startuml
 left to right direction
-skinparam linetype ortho
 :User: as User
 :Mentor: as Mentor
 rectangle "ITLC Timetable System" {
@@ -11,9 +10,10 @@ rectangle "ITLC Timetable System" {
   (Search lessons) as (UC5)
   (Book class) as (UC6)
   (Check against DkIT timetable system) as (UC8)
-  (Check currently booked classes) as (UC7)
   (Contact Mentor) as (UC9)
+  (Update class attendance) as (UC14)
   (Monitor class attendance) as (UC10)
+  (Update student progress) as (UC15)
   (Track student progress) as (UC11)
   (Provide Online Resources) as (UC12)
   (Access online resources) as (UC13)
@@ -21,7 +21,6 @@ rectangle "ITLC Timetable System" {
   User -- (UC1)
   User -- (UC5)
   User -- (UC6)
-  User -- (UC7)
   User -- (UC9)
   User -- (UC13)
   (UC1) -- Mentor
@@ -29,11 +28,12 @@ rectangle "ITLC Timetable System" {
   (UC3) -- Mentor
   (UC4) -- Mentor
   (UC5) -- Mentor
-  (UC7) -- Mentor
   (UC8) -- Mentor
   (UC10) -- Mentor
   (UC11) -- Mentor
   (UC12) -- Mentor
+  (UC14) -- Mentor
+  (UC15) -- Mentor
 
   (UC4) ..> (UC2) : include
   (UC3) ..> (UC2) : include

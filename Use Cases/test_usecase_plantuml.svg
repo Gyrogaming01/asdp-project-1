@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="937px" preserveAspectRatio="none" style="width:680px;height:937px;" version="1.1" viewBox="0 0 680 937" width="680px" zoomAndPan="magnify">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1006px" preserveAspectRatio="none" style="width:680px;height:1006px;" version="1.1" viewBox="0 0 680 1006" width="680px" zoomAndPan="magnify">
     <defs>
-        <filter height="300%" id="fak16ap7ng11v" width="300%" x="-1" y="-1">
+        <filter height="300%" id="fpvv0b7bmfit3" width="300%" x="-1" y="-1">
             <feGaussianBlur result="blurOut" stdDeviation="2.0" />
             <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" />
             <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" />
@@ -9,68 +9,68 @@
     </defs>
     <g>
         <!--cluster ITLC Timetable System-->
-        <rect fill="#FFFFFF" filter="url(#fak16ap7ng11v)" height="902" style="stroke: #000000; stroke-width: 1.5;" width="494" x="83" y="24" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="156" x="252" y="40.5332">ITLC Timetable System</text>
-        <ellipse cx="225.7635" cy="209.9527" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="67.7635" ry="15.9527" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="178.2635" y="215.2574">Show timetable</text>
-        <ellipse cx="508.4975" cy="124.9517" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="52.4975" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="473.4975" y="130.2564">Add lesson</text>
-        <ellipse cx="226.0005" cy="76.1001" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="68.5005" ry="16.1001" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="177.5005" y="81.4048">Remove lesson</text>
-        <ellipse cx="225.7635" cy="142.9527" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="67.7635" ry="15.9527" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="178.2635" y="148.2574">Change lesson</text>
-        <ellipse cx="226.0005" cy="277.1001" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="68.5005" ry="16.1001" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="177.5005" y="282.4048">Search lessons</text>
-        <ellipse cx="226.0833" cy="343.9517" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="51.0833" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="192.0833" y="349.2564">Book class</text>
-        <ellipse cx="226.0728" cy="422.8146" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="127.0728" ry="27.8146" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="232" x="110.0728" y="428.1193">Check against DkIT timetable system</text>
-        <ellipse cx="226.2192" cy="510.9438" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="112.7192" ry="24.9438" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="201" x="125.7192" y="516.2485">Check currently booked classes</text>
-        <ellipse cx="226.0005" cy="587.1001" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="68.5005" ry="16.1001" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="177.5005" y="592.4048">Contact Mentor</text>
-        <ellipse cx="225.9382" cy="659.0876" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="93.4382" ry="21.0876" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="146.9382" y="664.3923">Monitor class attendance</text>
-        <ellipse cx="226.1756" cy="735.1351" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="88.6756" ry="20.1351" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="147" x="152.6756" y="740.4398">Track student progress</text>
-        <ellipse cx="226.011" cy="812.2022" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="96.511" ry="21.7022" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="143.511" y="817.5069">Provide Online Resources</text>
-        <ellipse cx="226.1965" cy="889.2393" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="91.6965" ry="20.7393" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="154" x="149.1965" y="894.544">Access online resources</text>
+        <rect fill="#FFFFFF" filter="url(#fpvv0b7bmfit3)" height="971" style="stroke: #000000; stroke-width: 1.5;" width="494" x="83" y="24" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="156" x="252" y="40.5332">ITLC Timetable System</text>
+        <ellipse cx="225.7635" cy="209.9527" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="67.7635" ry="15.9527" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="178.2635" y="215.2574">Show timetable</text>
+        <ellipse cx="508.4975" cy="135.9517" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="52.4975" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="473.4975" y="141.2564">Add lesson</text>
+        <ellipse cx="226.0005" cy="76.1001" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="68.5005" ry="16.1001" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="177.5005" y="81.4048">Remove lesson</text>
+        <ellipse cx="225.7635" cy="142.9527" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="67.7635" ry="15.9527" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="178.2635" y="148.2574">Change lesson</text>
+        <ellipse cx="226.0005" cy="277.1001" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="68.5005" ry="16.1001" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="177.5005" y="282.4048">Search lessons</text>
+        <ellipse cx="226.0833" cy="343.9517" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="51.0833" ry="15.4517" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="68" x="192.0833" y="349.2564">Book class</text>
+        <ellipse cx="226.0728" cy="422.8146" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="127.0728" ry="27.8146" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="232" x="110.0728" y="428.1193">Check against DkIT timetable system</text>
+        <ellipse cx="226.0005" cy="502.1001" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="68.5005" ry="16.1001" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="177.5005" y="507.4048">Contact Mentor</text>
+        <ellipse cx="226.066" cy="573.9132" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="92.566" ry="20.9132" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="148.066" y="579.2179">Update class attendance</text>
+        <ellipse cx="225.9382" cy="651.0876" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="93.4382" ry="21.0876" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="146.9382" y="656.3923">Monitor class attendance</text>
+        <ellipse cx="226.066" cy="727.9132" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="92.566" ry="20.9132" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="156" x="148.066" y="733.2179">Update student progress</text>
+        <ellipse cx="226.1756" cy="804.1351" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="88.6756" ry="20.1351" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="147" x="152.6756" y="809.4398">Track student progress</text>
+        <ellipse cx="226.011" cy="881.2022" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="96.511" ry="21.7022" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="165" x="143.511" y="886.5069">Provide Online Resources</text>
+        <ellipse cx="226.1965" cy="958.2393" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="91.6965" ry="20.7393" style="stroke: #A80036; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="154" x="149.1965" y="963.544">Access online resources</text>
         <!--entity User-->
-        <ellipse cx="21" cy="408.5" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;" />
-        <path d="M21,416.5 L21,443.5 M8,424.5 L34,424.5 M21,443.5 L8,458.5 M21,443.5 L34,458.5 " fill="none" filter="url(#fak16ap7ng11v)" style="stroke: #A80036; stroke-width: 2.0;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="6.5" y="480.0332">User</text>
+        <ellipse cx="21" cy="311.5" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;" />
+        <path d="M21,319.5 L21,346.5 M8,327.5 L34,327.5 M21,346.5 L8,361.5 M21,346.5 L34,361.5 " fill="none" filter="url(#fpvv0b7bmfit3)" style="stroke: #A80036; stroke-width: 2.0;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="29" x="6.5" y="383.0332">User</text>
         <!--entity Mentor-->
-        <ellipse cx="646" cy="410.5" fill="#FEFECE" filter="url(#fak16ap7ng11v)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;" />
-        <path d="M646,418.5 L646,445.5 M633,426.5 L659,426.5 M646,445.5 L633,460.5 M646,445.5 L659,460.5 " fill="none" filter="url(#fak16ap7ng11v)" style="stroke: #A80036; stroke-width: 2.0;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="44" x="624" y="482.0332">Mentor</text>
+        <ellipse cx="646" cy="456.5" fill="#FEFECE" filter="url(#fpvv0b7bmfit3)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;" />
+        <path d="M646,464.5 L646,491.5 M633,472.5 L659,472.5 M646,491.5 L633,506.5 M646,491.5 L659,506.5 " fill="none" filter="url(#fpvv0b7bmfit3)" style="stroke: #A80036; stroke-width: 2.0;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="44" x="624" y="528.0332">Mentor</text>
         <!--link User to UC1-->
-        <path d="M14,398.362 C14,331.616 14,210 14,210 C14,210 95.7806,210 157.755,210 " fill="none" id="User-UC1" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M34.7828,301.492 C43.073,280.899 55.9549,257.54 75,243 C98.7373,224.878 130.415,216.296 158.543,212.376 " fill="none" id="User-UC1" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link User to UC5-->
-        <path d="M21,398.339 C21,349.747 21,277 21,277 C21,277 97.858,277 157.453,277 " fill="none" id="User-UC5" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M36.1386,333.366 C46.429,326.097 60.964,316.768 75,311 C104.3908,298.922 138.869,290.726 167.355,285.413 " fill="none" id="User-UC5" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link User to UC6-->
-        <path d="M29,398.454 C29,372.392 29,344 29,344 C29,344 116.385,344 174.755,344 " fill="none" id="User-UC6" style="stroke: #A80036; stroke-width: 1.0;" />
-        <!--link User to UC7-->
-        <path d="M29,483.736 C29,498.31 29,511 29,511 C29,511 69.2743,511 113.403,511 " fill="none" id="User-UC7" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M36.2746,344 C64.6125,344 129.174,344 174.871,344 " fill="none" id="User-UC6" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link User to UC9-->
-        <path d="M21,483.622 C21,526.716 21,587 21,587 C21,587 97.858,587 157.453,587 " fill="none" id="User-UC9" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M29.607,386.543 C36.7271,414.018 50.1593,448.366 75,469 C97.8698,487.997 129.273,496.706 157.438,500.485 " fill="none" id="User-UC9" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link User to UC13-->
-        <path d="M14,483.551 C14,595.379 14,889 14,889 C14,889 76.9512,889 134.247,889 " fill="none" id="User-UC13" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M23.1203,386.504 C26.8305,512.813 40.5008,879.636 75,920 C90.4471,938.073 113.141,948.1916 136.224,953.6957 " fill="none" id="User-UC13" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link UC1 to Mentor-->
-        <path d="M294.199,210 C411.502,210 639,210 639,210 C639,210 639,332.999 639,400.264 " fill="none" id="UC1-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M289.757,215.815 C311.621,220.43 335.128,228.599 353,243 C375.906,261.458 362.046,281.352 383,302 C454.215,372.175 509.442,335.524 585,401 C600.511,414.442 613.852,432.771 623.987,449.223 " fill="none" id="UC1-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link UC2 to Mentor-->
-        <path d="M561.029,125 C602.706,125 654,125 654,125 C654,125 654,313.791 654,400.443 " fill="none" id="UC2-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M547.126,146.517 C564.002,153.139 582.63,163.456 594,179 C624.633,220.876 637.902,371.721 642.698,446.444 " fill="none" id="UC2-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link UC3 to Mentor-->
-        <path d="M290.654,70.667 C411.832,70.667 661,70.667 661,70.667 C661,70.667 661,302.489 661,400.289 " fill="none" id="UC3-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M287.671,83.111 C309.678,87.861 333.821,95.784 353,109 C371.889,122.016 366.583,134.978 383,151 C460.632,226.768 520.875,200.504 585,288 C619.767,335.438 634.547,403.017 640.721,446.446 " fill="none" id="UC3-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link UC4 to Mentor-->
-        <path d="M287.972,149.75 C404.802,149.75 646,149.75 646,149.75 C646,149.75 646,319.027 646,400.359 " fill="none" id="UC4-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M289.208,149.031 C311.14,153.664 334.833,161.789 353,176 C374.932,193.155 363.565,211.06 383,231 C455.416,305.297 516.273,270.279 585,348 C609.848,376.1 625.526,416.02 634.598,446.215 " fill="none" id="UC4-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link UC5 to Mentor-->
-        <path d="M294.872,277 C410.706,277 632,277 632,277 C632,277 632,351.066 632,400.251 " fill="none" id="UC5-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
-        <!--link UC7 to Mentor-->
-        <path d="M338.562,511 C459.021,511 633,511 633,511 C633,511 633,499.342 633,485.679 " fill="none" id="UC7-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M289.611,283.102 C311.586,287.864 335.203,296.256 353,311 C376.573,330.529 360.125,352.658 383,373 C454.002,436.14 501.337,397.962 585,443 C598.869,450.466 612.919,461.04 623.934,470.168 " fill="none" id="UC5-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link UC8 to Mentor-->
-        <path d="M352.583,425.75 C449.197,425.75 573.939,425.75 623.891,425.75 " fill="none" id="UC8-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M329.79,439.23 C428.657,454.841 570.712,477.27 623.866,485.663 " fill="none" id="UC8-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link UC10 to Mentor-->
-        <path d="M319.618,659 C442.291,659 642,659 642,659 C642,659 642,548.624 642,485.675 " fill="none" id="UC10-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M294.477,636.651 C368.629,619.204 489.843,585.659 585,535 C598.903,527.598 612.956,517.028 623.963,507.887 " fill="none" id="UC10-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link UC11 to Mentor-->
-        <path d="M314.577,735 C439.132,735 651,735 651,735 C651,735 651,566.878 651,485.772 " fill="none" id="UC11-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M309.364,797.055 C390.502,785.839 512.522,756.532 585,680 C623.479,639.369 637.29,574.3 642.241,531.601 " fill="none" id="UC11-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link UC12 to Mentor-->
-        <path d="M322.588,812 C450.473,812 660,812 660,812 C660,812 660,582.822 660,485.689 " fill="none" id="UC12-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <path d="M320.883,876.791 C402.45,867.954 517.768,842.086 585,768 C616.089,733.741 633.749,600.993 641.029,531.681 " fill="none" id="UC12-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link UC14 to Mentor-->
+        <path d="M295.556,560.059 C392.37,540.372 564.016,505.468 623.779,493.315 " fill="none" id="UC14-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
+        <!--link UC15 to Mentor-->
+        <path d="M304.189,716.59 C382.948,701.42 504.693,667.787 585,597 C604.952,579.413 619.653,553.524 629.508,531.503 " fill="none" id="UC15-Mentor" style="stroke: #A80036; stroke-width: 1.0;" />
         <!--link UC4 to UC2-->
-        <path d="M281.813,133.75 C281.813,133.75 459.829,133.75 459.829,133.75 " fill="none" id="UC4-UC2" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
-        <polygon fill="#A80036" points="464.829,133.75,455.829,129.75,459.829,133.75,455.829,137.75,464.829,133.75" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="41" x="384" y="132.4951">include</text>
+        <path d="M294.262,143.18 C332.831,143.069 382.149,142.564 426,141 C434.33,140.703 443.132,140.278 451.751,139.801 " fill="none" id="UC4-UC2" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#A80036" points="457.088,139.497,447.8752,136.0151,452.0961,139.7812,448.3299,144.0021,457.088,139.497" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="41" x="384" y="137.4951">include</text>
         <!--link UC3 to UC2-->
-        <path d="M290.926,81.333 C374.477,81.333 509,81.333 509,81.333 C509,81.333 509,104.235 509,104.235 " fill="none" id="UC3-UC2" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
-        <polygon fill="#A80036" points="509,109.235,513,100.235,509,104.235,505,100.235,509,109.235" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="41" x="384" y="74.4951">include</text>
+        <path d="M277.148,86.727 C329.099,97.839 409.653,115.07 460.436,125.933 " fill="none" id="UC3-UC2" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" />
+        <polygon fill="#A80036" points="465.561,127.029,457.5968,121.2349,460.6716,125.9831,455.9234,129.0579,465.561,127.029" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="41" x="384" y="106.4951">include</text>
         <!--
 @startuml
 left to right direction
-skinparam linetype ortho
 :User: as User
 :Mentor: as Mentor
 rectangle "ITLC Timetable System" {
@@ -81,9 +81,10 @@ rectangle "ITLC Timetable System" {
   (Search lessons) as (UC5)
   (Book class) as (UC6)
   (Check against DkIT timetable system) as (UC8)
-  (Check currently booked classes) as (UC7)
   (Contact Mentor) as (UC9)
+  (Update class attendance) as (UC14)
   (Monitor class attendance) as (UC10)
+  (Update student progress) as (UC15)
   (Track student progress) as (UC11)
   (Provide Online Resources) as (UC12)
   (Access online resources) as (UC13)
@@ -91,7 +92,6 @@ rectangle "ITLC Timetable System" {
   User - - (UC1)
   User - - (UC5)
   User - - (UC6)
-  User - - (UC7)
   User - - (UC9)
   User - - (UC13)
   (UC1) - - Mentor
@@ -99,11 +99,12 @@ rectangle "ITLC Timetable System" {
   (UC3) - - Mentor
   (UC4) - - Mentor
   (UC5) - - Mentor
-  (UC7) - - Mentor
   (UC8) - - Mentor
   (UC10) - - Mentor
   (UC11) - - Mentor
   (UC12) - - Mentor
+  (UC14) - - Mentor
+  (UC15) - - Mentor
 
   (UC4) ..> (UC2) : include
   (UC3) ..> (UC2) : include

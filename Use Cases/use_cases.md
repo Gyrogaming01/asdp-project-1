@@ -3,6 +3,8 @@
 ## Use Cases
 
 ### Add Lesson
+Main Actor: Mentor
+
 Preconditions:
 - Signed in as mentor
 
@@ -15,6 +17,8 @@ Postconditions:
 - Time-slot cannot be booked again
 
 ### Remove Lesson
+Main Actor: Mentor
+
 Preconditions:
 - Signed in as mentor
 
@@ -28,6 +32,8 @@ Postconditions:
 - Time-slot can be booked again
 
 ### Change Lesson
+Main Actor: Mentor
+
 Preconditions:
 - Signed in as mentor
 
@@ -43,6 +49,8 @@ Postconditions:
 - Old time-slot can be booked again
 
 ### Show Timetable
+Main Actor: User, Mentor
+
 Preconditions:
 
 Normal Sequence of Steps:
@@ -52,6 +60,7 @@ Normal Sequence of Steps:
 Postconditions:
 
 ### Search Lessons
+Main Actor: User
 Preconditions:
 
 Normal Sequence of Steps:
@@ -63,6 +72,8 @@ Normal Sequence of Steps:
 Postconditions:
 
 ### Book Class
+Main Actor: User
+
 Preconditions:
 
 Normal Sequence of Steps:
@@ -77,6 +88,8 @@ Postconditions:
 - Time-slot cannot be booked again
 
 ### Check against DkIT Timetable
+Main Actor: Mentor
+
 Preconditions:
 
 Normal Sequence of Steps:

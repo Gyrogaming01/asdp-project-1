@@ -156,19 +156,28 @@ Postconditions:
 ### Provide Online Resources
 Preconditions:
 - Signed in as mentor
+- Have resource to provide
 
 Normal Sequence of Steps:
 1. Select topic
 2. Get resource (text, link, pdf, etc.)
 3. Add to resource list for that topic
+4. Edit and save the topic
 
 Postconditions:
+Reource is up online
+Sign out
 
 ### Access Online Resources
 Preconditions:
+- Siged in as a student
 
 Normal Sequence of Steps:
 1. Get topic to search for
 2. Display resources for selected topic
+3. download/save the resources
 
 Postconditions:
+Resource obtained
+
+

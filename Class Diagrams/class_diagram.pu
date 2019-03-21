@@ -1,18 +1,19 @@
 @startuml
 
 Timetable "1" o-- "*" Lesson
-Lesson "1" -- "1" Room
-Lesson "1" -- "1..*" Mentor
+Lesson "1" -- "1" Room : happens in
+Lesson "1" -- "1..*" Mentor : taught by
 
 Mentor "1" -- "*" Teachers
 Teachers "*" -- "1" Subject
-Resource "*" -- "1" User
+Resource "*" -- "1" User : uploads
 User <|.. Student
 User <|.. Mentor
-Resource "1" -- "1" Subject
+Resource "1" -- "1" Subject : has
 Resources o-- Resource
-Lesson "1" -- "1" Subject
-Lesson "1" -- "*" Student
+Lesson "1" -- "1" Subject : has
+Lesson "1" -- "*" Student : attends
+Resources -- User : uses
 
 class Timetable {
   Lesson[] lessons
@@ -41,13 +42,17 @@ class Room {
 class Mentor {
   String name
   String contact_detail
+  contact()
 }
+
+Student - Mentor : contact
 
 class Resources {
   Resource[] resources
   addResource()
   editResource()
   removeResource()
+  getResource()
 }
 
 class Resource {
@@ -64,9 +69,20 @@ class Student {
   int year
   String Id
   Lesson[] attendedLessons
+  Result[] grades
   attendLesson()
   getAttendance()
   verifyAttendance()
+  updateProgress()
+  getProgress()
+}
+
+Student -- Result : has
+Result -- Subject
+
+class Result {
+  Subject subject
+  int result
 }
 
 class Subject {

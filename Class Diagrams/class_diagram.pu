@@ -1,0 +1,36 @@
+@startuml
+
+Timetable o-- Lesson
+Lesson -- Room
+Lesson -- Mentor
+
+class Timetable {
+  Lesson[] lessons
+  addLesson()
+  removeLesson()
+  changeLesson()
+  showTimetable()
+  searchLessons()
+  bookClass()
+}
+
+class Lesson {
+  String topic
+  DateTime datetime
+  Room room
+  Mentor mentor
+  String recommendedLevel
+  int attendance
+}
+
+class Room {
+  String name
+  int capacity
+}
+
+class Mentor {
+  String name
+  String contact_detail
+}
+
+@enduml

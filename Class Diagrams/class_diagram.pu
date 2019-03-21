@@ -1,8 +1,18 @@
 @startuml
 
-Timetable o-- Lesson
-Lesson -- Room
-Lesson -- Mentor
+Timetable "1" o-- "*" Lesson
+Lesson "1" -- "1" Room
+Lesson "1" -- "1..*" Mentor
+
+Mentor "1" -- "*" Teachers
+Teachers "*" -- "1" Subject
+Resource "*" -- "1" User
+User <|.. Student
+User <|.. Mentor
+Resource "1" -- "1" Subject
+Resources o-- Resource
+Lesson "1" -- "1" Subject
+Lesson "1" -- "*" Student
 
 class Timetable {
   Lesson[] lessons
@@ -15,7 +25,7 @@ class Timetable {
 }
 
 class Lesson {
-  String topic
+  Subject topic
   DateTime datetime
   Room room
   Mentor mentor
@@ -31,6 +41,42 @@ class Room {
 class Mentor {
   String name
   String contact_detail
+}
+
+class Resources {
+  Resource[] resources
+  addResource()
+  editResource()
+  removeResource()
+}
+
+class Resource {
+  Subject subject
+  User uploader
+  addTopic()
+  removeTopic()
+  editTopic()
+  searchResource()
+}
+
+class Student {
+  String name
+  int year
+  String Id
+  Lesson[] attendedLessons
+  attendLesson()
+  getAttendance()
+  verifyAttendance()
+}
+
+class Subject {
+  String name
+  int year
+}
+
+class Teachers {
+  Subject subject
+  Mentor mentor
 }
 
 @enduml

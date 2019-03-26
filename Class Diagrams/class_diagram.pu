@@ -27,22 +27,50 @@ class Timetable {
 
 class Lesson {
   Subject topic
+  String description
   DateTime datetime
   Room room
   Mentor mentor
   String recommendedLevel
   int attendance
+  getTopic()
+  getDescription()
+  getDatetime()
+  getRoom()
+  getMentor()
+  getRecommendedLevel()
+  getAttendance()
+  setTopic()
+  setDescription()
+  setDatetime()
+  setRoom()
+  setMentor()
+  setRecommendedLevel()
+  setAttendance()
 }
 
 class Room {
   String name
   int capacity
+  getName()
+  getCapacity()
+  setName()
+  setCapacity()
 }
 
 class Mentor {
   String name
+  String id
   String contact_detail
+  ---
   contact()
+  ---
+  getName()
+  getId()
+  getContactDetails()
+  setName()
+  setId()
+  setContactDetails()
 }
 
 Student - Mentor : contact
@@ -58,10 +86,31 @@ class Resources {
 class Resource {
   Subject subject
   User uploader
+  String contents
+  ---
   addTopic()
   removeTopic()
   editTopic()
   searchResource()
+  ---
+  getSubject()
+  getUploader()
+  getContents()
+  setSubject()
+  setUploader()
+  setContents()
+}
+
+class User {
+  String name
+  String id
+  ---
+  getResource()
+  ---
+  getName()
+  getId()
+  setName()
+  setId()
 }
 
 class Student {
@@ -70,11 +119,23 @@ class Student {
   String Id
   Lesson[] attendedLessons
   Result[] grades
+  ---
   attendLesson()
   getAttendance()
   verifyAttendance()
   updateProgress()
   getProgress()
+  ---
+  getName()
+  getYear()
+  getId()
+  getAttendedLessons()
+  getGrades()
+  setName()
+  setYear()
+  setId()
+  setAttendedLessons()
+  setGrades()
 }
 
 Student -- Result : has
@@ -83,16 +144,28 @@ Result -- Subject
 class Result {
   Subject subject
   int result
+  getSubject()
+  getResult()
+  setSubject()
+  setResult()
 }
 
 class Subject {
   String name
   int year
+  getName()
+  getYear()
+  setName()
+  setYear()
 }
 
 class Teachers {
   Subject subject
   Mentor mentor
+  getSubject()
+  getMentor()
+  setSubject()
+  setMentor()
 }
 
 @enduml

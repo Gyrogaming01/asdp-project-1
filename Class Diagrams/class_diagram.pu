@@ -33,6 +33,10 @@ class Lesson {
   Mentor mentor
   String recommendedLevel
   int attendance
+  ---
+  newLesson()
+  approveLesson()
+  ---
   getTopic()
   getDescription()
   getDatetime()
@@ -63,6 +67,7 @@ class Mentor {
   String id
   String contact_detail
   ---
+  notify()
   contact()
   ---
   getName()
@@ -121,6 +126,7 @@ class Student {
   Lesson[] attendedLessons
   Result[] grades
   ---
+  notify()
   attendLesson()
   getAttendance()
   verifyAttendance()

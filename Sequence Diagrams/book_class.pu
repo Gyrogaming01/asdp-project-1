@@ -1,0 +1,12 @@
+@startuml
+
+Interface --> Timetable: bookClass()
+Timetable --> Lesson: newLesson()
+Lesson --> Mentor: notify()
+Lesson <-- Mentor : approveLesson()
+Lesson --> Student: notify()
+Lesson <-- Student
+Timetable <-- Lesson
+Interface <-- Timetable
+
+@enduml
